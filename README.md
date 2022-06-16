@@ -11,7 +11,9 @@ screenshot 1 [ before running tool ]
 screenshot 2 [ after running tool ]
 > ![log3](https://user-images.githubusercontent.com/79422726/173978448-594ba48a-b637-4c8f-9fe5-f2ff1f2ea6b8.png)
 ------------------------------------------------
-#You Showing all logs cleared :)
+# You Showing all logs cleared :)
+# warning :
+ if logs not cleared running tool wirh root user in linux and run as administrator in windows
 ------------------------------------------------
 # requirements and launch:
 
@@ -24,3 +26,4 @@ screenshot 2 [ after running tool ]
 and now chosing your platform [linux] or [windows]
 
 good luck .
+
