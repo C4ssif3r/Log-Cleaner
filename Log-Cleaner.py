@@ -62,7 +62,7 @@ def linux():
     print(Fore.GREEN+"[+]"+Fore.YELLOW+"Clearing Linux logs [ no verbose ]"+Fore.WHITE+"")
     a1 = system('rm -rf /tmp/logs')
     a2 = system('rm -rf $HISTFILE')
-    a3 = system('rm -rf/root/.ksh_history')
+    a3 = system('rm -rf /root/.ksh_history')
     a4 = system('rm -rf /root/.bash_history')
     ox = system('rm -rf /root/.bash_logout')
     a5 = system('rm -rf /root/.bash_logout')
