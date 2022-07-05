@@ -25,5 +25,5 @@ screenshot 2 [ after running tool ]
 
 and now chosing your platform [linux] or [windows]
 
-+++ good luck .
++ good luck .
 
