@@ -1,4 +1,7 @@
-# Log Cleaner tool
+[![](https://img.shields.io/static/v1?label=Owner&message=Mji~DarkPwn&color=black)](http://127.0.0.1:9050) [![](https://img.shields.io/static/v1?label=python&message=3.*&color=yellow)](http://127.0.0.1:9050) ![GithubAllStars](https://img.shields.io/github/stars/C4ssif3r/Log-Cleaner?style=social)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+### Log Cleaner tool
 a simple python 3.x tool for cleaning automatically Log[s] in 'linux' or 'windows' The Log Cleaner {clear log}
 
 # how tool Working ?
