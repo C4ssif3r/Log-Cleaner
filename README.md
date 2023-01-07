@@ -24,7 +24,7 @@ screenshot 2 [ after running tool ]
 
 ------------------------------------------------
 
-+ `python Logs-Cleaner.py`
++ `python Log-Cleaner.py`
 
 and now chosing your platform [linux] or [windows]
 
