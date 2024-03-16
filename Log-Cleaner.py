@@ -1,12 +1,16 @@
+
 #!/usr/bin/env python3
+
 #---------------------
-__author__ = 'C4ssif3r[Mr-Expl0it] MJi A.S.P.I.R.I.N'
-__telegram_ID__ = '@creator_typeri'
-__instagram_ID__ = '@Mji_Devil'
-__about__ = ''' this script removing automatically LOG[s] in the your target systems
+
+author = 'C4ssif3r[Mr-Expl0it] MJi A.S.P.I.R.I.N'
+telegram_ID = '@AboutMji'
+website = "https://moojia.github.io"
+about = ''' this script removing automatically LOG[s] in the your target systems
 only run this script with python 3.x and wait for cleaning LOG[s] ;) '''
+
 #---------------------
-# check and installing requirements 
+# check and installing requirements ---
 #---------------------
 
 try:
@@ -19,7 +23,6 @@ except:
     print ('[!] please installing libs on requirements.txt file \n with command ~> pip install -r requirements.txt [ if pip not worked try with pip3 ]')
     sys.exit()
 #------------------
-# Mji Was Here .
 
 init()
 
@@ -34,14 +37,14 @@ def banner():
 |__/ |__/ |__/      |__/ | |__  |__/||  / |__  |    
 \n''')
     sleep(2.0)
-    print (Fore.RED+'        [#]'+Fore.WHITE+'AUTHOR : Mji [ MR EXPL0iT ]')
+    print (Fore.RED+'        [#]'+Fore.WHITE+'AUTHOR : Mojia')
     sleep(1.5)
     print (Fore.RED+'        [#]'+Fore.WHITE+'Automaticallu clearing logs')
     sleep(1.3)
-    print (Fore.RED+'        [#]'+Fore.WHITE+'TELEGRAM : @creator_Typeri')
+    print (Fore.RED+'        [#]'+Fore.WHITE+'TELEGRAM : @AboutMji')
     sleep(1.0)
-    print (Fore.RED+'        [#]'+Fore.WHITE+'INSTAGRAM [IG] : @MjiDevil\n\n\n')
-    sleep(3.0)
+    print (Fore.RED+'        [#]'+Fore.WHITE+'website : moojia.github.io\n\n\n')
+    sleep(2.0)
 
 banner()
 
@@ -91,11 +94,11 @@ os_name = sys.platform
 
 os_name_input = input (Fore.WHITE+"Plz Enter your platform ['linux'] or ['windows'] ~>"+Fore.YELLOW+" ")
 
-if os_name_input == 'linux':
+if os_name_input == 'linux' or "linux" in os_name:
     print (Fore.GREEN+'[!] '+Fore.WHITE+'Your system is {} and you selected {} platform\n'.format(os_name,os_name_input))
     linux()
     print(Fore.WHITE+' ')
-if os_name_input == 'windows':
+if os_name_input == 'windows' or "win" in os_name:
     print (Fore.GREEN+'[!] '+Fore.WHITE+'Your system is {} and you selected {} platform\n'.format(os_name,os_name_input))
     windows()
     print(Fore.WHITE+' ')
